@@ -1,0 +1,10 @@
+[
+  {
+    "id": "46702c45-35d3-4bc4-ab50-3ba3a58dcd2f",
+    "name": "Ilyas Ndhote",
+    "username": "ilyandho",
+    "hashPass": "$2b$10$wtdybQXSJQvycIA1eiuWv.MHkjxTjii1EisSIAbY7pyGw582SmlRa",
+    "friends": ["id", "id"],
+    "groups": ["id", "id"]
+  }
+]

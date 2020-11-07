@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creative Colorlib SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Theme files -->
+    <link
+      href="css/partials/navbar.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <!-- //web font -->
+  </head>
+  <body>
+    <nav class="my-nav">
+      <div class="container">
+        <h1 class="brand">SocketChats</h1>
+        <ul class="links">
+          <li class="text">Groups</li>
+          <li class="icon"><i class="fas fa-users"></i></li>
+          <li class="text">Private</li>
+          <li class="icon"><i class="fas fa-user-friends"></i></li>
+        </ul>
+        <div class="user-profile">
+          <img src="./images/avatar.jpg" alt="user image" />
+          <p><%= user.username%></p>
+          <a><p>LogOut</p></a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "name": "socketiowebchat",
+  "version": "1.0.0",
+  "description": "This is a simple web app design with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyandho/Socket.io-Web-Chat.git"
+  },
+  "author": "Ilyas Ndhote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyandho/Socket.io-Web-Chat/issues"
+  },
+  "homepage": "https://github.com/ilyandho/Socket.io-Web-Chat#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-localstorage": "^2.1.6",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
